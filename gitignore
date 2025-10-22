@@ -1,0 +1,39 @@
+# .gitignore - Projet CNN vs Transfer Learning (Cats vs Dogs)
+
+# === Dossiers de données ===
+data/
+datasets/
+__pycache__/
+
+# === Checkpoints / modèles entraînés ===
+*.pt
+*.pth
+*.h5
+checkpoints/
+runs/
+logs/
+
+# === Notebooks temporaires / sorties ===
+*.ipynb_checkpoints/
+*.log
+*.tmp
+
+# === Environnements virtuels ===
+venv/
+.env/
+.venv/
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+
+# === Python cache ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# === Archives et autres fichiers lourds ===
+*.zip
+*.tar
+*.tar.gz
